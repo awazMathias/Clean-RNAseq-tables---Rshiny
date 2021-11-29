@@ -8,6 +8,37 @@ and the columns at the conditions (takes the name of the uploaded files)
 	- A boxplot allowing to observe the distribution of the number of genes according to the conditions (at log10)
 Finally, on the left side, the upload, the download and all the options are present. 
 
+## SOFTWARE AND PACKAGES
+
+R version 4 and packages : 
+
+    -shiny
+
+    -shinydashboard
+
+    -readxl
+
+    -data.table
+
+	-tools
+
+	-ggplot2
+
+	-reshape2
+
+	-plotly
+    
+
+For install in R4: 
+
+```
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("rtracklayer")
+
+install.packages(c("shiny", "shinydashboard", "readxl", "data.table", "tools", "ggplot2", "reshape2", "plotly"))
+```
+
 
 ## WIDGETS ##
 
